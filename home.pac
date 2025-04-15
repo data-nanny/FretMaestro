@@ -1,7 +1,7 @@
 
 function FindProxyForURL(url, host) {
     if (shExpMatch(host, "*.qq.com")) {
-        return "PROXY 121.36.97.115:3128";
+        return "PROXY 14.103.161.7:3128";
     }
     return "DIRECT";
 }
